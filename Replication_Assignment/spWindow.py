@@ -11,10 +11,11 @@ import webbrowser
 import plotly.express as px
 import plotly.graph_objects as go 
 import pandas as pd
+//removed to avoid other accessing my account
+username = ''
+client_id =''
+client_secret = ''
 
-username = '22acn6xhhs5qrtq7puyxxghly'
-client_id ='1c00240f54704191b8e878b9188699bd'
-client_secret = '96af7855087c41babfb6f540cd7e29c1'
 redirect_uri = 'http://localhost:7777/callback'
 scope = 'user-top-read user-read-currently-playing'
 token = util.prompt_for_user_token(username=username, 
