@@ -22,7 +22,8 @@ Run app.py
 import os
 
 os.environ['SPOTIPY_CLIENT_ID'] ='1c00240f54704191b8e878b9188699bd'
-os.environ['SPOTIPY_CLIENT_SECRET'] = '96af7855087c41babfb6f540cd7e29c1'
+#removed secret id
+os.environ['SPOTIPY_CLIENT_SECRET'] = ''
 os.environ['SPOTIPY_REDIRECT_URI'] = 'http://127.0.0.1:8888'
 
 from flask import Flask, session, request, redirect
